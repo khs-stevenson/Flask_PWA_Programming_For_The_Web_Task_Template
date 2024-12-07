@@ -12,6 +12,10 @@ body {
   font-size: 1rem;
 }
 
+p {
+  padding: 20px;
+  }
+
 main {
   max-width: 900px;
   margin: auto;

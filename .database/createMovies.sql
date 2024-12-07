@@ -6,4 +6,7 @@ INSERT INTO movies(ID, name, year_released, rating, image, imdb) VALUES (2, "The
 INSERT INTO movies(ID, name, year_released, rating, image, imdb) VALUES (3, "Skyfall", 2012, "M", "https://m.media-amazon.com/images/M/MV5BNjAzMWNkODUtM2FlMi00NzgyLWJhMGUtMWEyNDYyZGFiN2RlXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg", "https://www.imdb.com/title/tt1074638/?ref_=fn_al_tt_2");
 INSERT INTO movies(ID, name, year_released, rating, image, imdb) VALUES (4, "Inside Out", 2015, "PG", "https://lumiere-a.akamaihd.net/v1/images/h_insideout_mobile_19751_befd1504.jpeg","https://www.imdb.com/title/tt2096673/");
 */
-select count(*) from movies
+--DROP table contact_list;
+CREATE TABLE contact_list(id INTEGER PRIMARY KEY AUTOINCREMENT, 
+            email TEXT NOT NULL UNIQUE,
+            name TEXT);
